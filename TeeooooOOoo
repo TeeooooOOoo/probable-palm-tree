@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<title:Project: C++ info site</title>
+		</head>
+		
+	<body>
+      <style>
+            h1 {
+              text-align: center;
+              font-family: "Source Sans Pro", sans-serif;
+              font-weight: normal;
+              background-color:violet;
+            }
+            #Syntax {
+              color:lightsteelblue;
+              font-family: "Bold 700 Italic",sans-serif;
+            }
+            #Semantics {
+              color:brown;
+              font-family: "Bold 700 italic", sans-serif;
+            }
+            .cpart{
+              color:greenyellow;
+            }
+            #whatc {
+              color:orange;
+              font_family: "Bold 700 Italic", sans-serif;
+            }
+            #whattodo {
+            color:yellow;
+            font-family:"Bold 700 Italic", sans-serif;
+            }
+            #br {
+              color:azure;
+              font-family:"-apple-system", sans-serif;
+            }
+      </style>
+		<p>In this article</p>
+		<ul>
+			<li><a href="#whatc"></a>Introduction to C++</li>
+			<li><a href="#whattodo"</a>What can you do with C++</li>
+		<h1>Introduction to C++</h1>
+		
+		<a id="whatc">Introduction to C++</a>
+		
+		<p>A programming language (be it C++, HTML, Python etc) is a huge group</br>
+		of strings that, put together, have as an outcome different functions which are used </br>
+		in order to do certain things with the computer.</p>
+		
+		<p>Each programming language has two main components, which are the <strong>syntax</strong> (or the form)<br>
+		and the <strong>semantics</strong> (or the meaning).</p>
+		
+		<h2 id="Syntax">Syntax</h2>
+		
+		<p> The syntax itself is a set of "rules" which have to be followed in order to get an error-free output.<br>
+		In order to understand it, let's discuss a simple programme, the "hello world!" one:</p>
+		
+		<p class="cpart"> #include <iostream> </br> using namespace std; </br> int main() <br> </p>
+		
+		<p>{ </br> cout<<"Hello world! <br> } <br> <br> </p>
+		
+		<p id="br"> The output of this will be a "hello world!" text shown by the complier <em>(another file which opes automatically<br>
+		in case of an error-free programme when you press the "Build&run" button so that you can see the outcome of what<br>
+		you tried to do and see whether you wrote the coding part right or not) </em>.</p>
+		<ol>
+			
+			<li>"#include <iostream>"</li>
+		
+			<p>This is how we introduce the <iostream> library. It is a really used one, but it is not the only one and, depending on<br>
+			the programme that you want to do, you might not need it, as it only comes with some functions. Each library (and there are<br>
+			many libraries) comes with its own functions, and only few functions can be found in two or more libraries at the same time.</br>
+			But a standard thing is the "#indclude", because it's how to "implement" a new function in the programme. If you use a function<br>
+			that is not included in the library, then the complier will show you where the function is used and say that it doesn't recognise it.<br><br>
+			
+			<li>"using namespace std;"</li>
+			<p>In programming, we can't have variables with the same name, so this is why we use namespaces. So for a new namespace we have only one<br>
+			value and we can use it whenever we want. This is relatively new in this programming language, but is extremely useful.<br><br></p>
+		
+			<li>"int main"</li>
+			<p>Each prohramme needs to have a main function. the int one is the most used, but depening on the type of programme that you want<br>
+			to do, you might need to use, for instance, the int, which is also the most recommended in general.</p>
+			
+			<li>The { and the }</li>
+			<p>They are used to separate a part of the programme (in general a function) which contains more commands. If a function is called only for<br>
+			a command, then you don't have to use { and } if you don't want to. But if you have to write more than a line of code for a function, then you<br>
+			have to write those lines inside the the curly braces.</p>
+			
+			<li>"cout<<"Hello world!"</li>
+			<p>The important part is the "cout". It is the function used in C++ to get the output on the complier. <strong><em>Standard output stream<br>
+			</strong></em> is a basic C++ function that can be found in the <iostream> library. After it, the text that you want to be shown on the<br>
+			complier has to be written in " "(quotation marks), so that the computer sees that you want to write something that can't be understood by it<br>
+			and that it shouldn't take as a variable.</p>
+		</ol>
+		
+		<h2>Semantics</h2>
+		<p>This is the part that puts together all the functions and the operations that we do. In order to have an outcome from those lines<br>
+		of code that are written, the semantics help to link the together. For instance, when writing a difficult calculus (let's say, 1784+735*63-7353/63+44%6)<br>
+		it helps. Of course, this is a simple example, as it can do way more complex things. But what you have to remember is that the semantics is something<br>
+		that you don't see, but that tries to make sense and understand what you meant in the programme.</p>
+		
+		<a id="whattodo">What can you do with C++</a>
+		<p>Knowing how to programme in C++ is extremely useful nowadays. All programming languages have their own particularities and functions and all that, but <br>
+		C++ is important especially because if you know about it, than most probably you will be able to understand other programming langauges easier. Coding is, in <br>
+		general, based on Mathematics, so it can help in developing a critical and analytical thinking, which is really valuable, especially in the workplace.<br>
+		It's also a way to become more creative. A purpose programmers have when coding is that the programme should contain as few lines of code as possible. Why so?<br>
+		Well, the computer has to consume space and time in order to do a programme or solve a problem, so if it is written in few lines of code, then it will be able to<br>
+		do it faster, saving time and space in its storage (this depends on the difficulty of the programme, though).<br>
+		But, if you want to become a professional, or at least gain as much knowledge as possible, there are things that you can do with it that will help you make money.<br>
+		Some of these things are:</p>
+		<ul>
+			<li>Games, like CS or Temple Run</li>
+			<li>Browsers, like Chrome or Firefox</li>
+			<li>Operating systems, like iOS or Android</li>
+			<li>Other libraries!!</li>
+		</ul>
+		<p>Long story short, there are several things that you can do, and learning how to code, especially in C++, can bring satisfaction and also help you gain<br>
+		important knowledge, which can help in the workplace and in real life as well!
+	</body>
+</html>
